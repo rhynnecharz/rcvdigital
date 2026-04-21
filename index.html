@@ -2,57 +2,78 @@
 <html>
 <head>
     <title>Rhynne Charz Villas | Portfolio</title>
+
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
+            font-family: Arial, sans-serif;
             background: #0f172a;
             color: white;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero h2 {
+            color: #38bdf8;
+            margin: 10px 0;
+        }
+
+        .section {
+            padding: 50px 20px;
             text-align: center;
         }
-        .container {
-            padding: 60px 20px;
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        h1 {
-            font-size: 40px;
-        }
-        h2 {
-            color: #38bdf8;
-        }
-        .section {
-            margin-top: 50px;
-        }
+
         .card {
             background: #1e293b;
-            padding: 20px;
             margin: 15px;
+            padding: 20px;
             border-radius: 10px;
+            width: 250px;
+        }
+
+        .card:hover {
+            background: #334155;
         }
     </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="hero">
     <h1>Rhynne Charz Villas</h1>
     <h2>Computer Engineering Student</h2>
     <p>Building intelligent systems through hardware and innovation.</p>
+</div>
 
-    <div class="section">
-        <h2>Projects</h2>
+<div class="section">
+    <h2>Projects</h2>
 
+    <div class="projects">
         <div class="card">Bugbot – Robotics Hardware Design</div>
         <div class="card">Sumobot – Competitive Robot</div>
         <div class="card">Waste Segregation System – AI + Hardware</div>
         <div class="card">Classic Tetris – Android App</div>
         <div class="card">Student Management System – Python</div>
-
     </div>
+</div>
 
-    <div class="section">
-        <h2>Contact</h2>
-        <p>Email: rhynnecharz04@gmail.com</p>
-    </div>
+<div class="section">
+    <h2>Contact</h2>
+    <p>Email: rhynnecharz04@gmail.com</p>
 </div>
 
 </body>
